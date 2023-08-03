@@ -11,8 +11,6 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-  access_key = "access key"
-  secret_key = "secret key"
 }
 
 # https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html#ecs-optimized-ami-linux
